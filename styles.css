@@ -1,0 +1,150 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+header {
+  background-color: #0a0a0a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: #0e0e0e;
+}
+
+body {
+  background-color: #0e0e0e;
+  font-family: 'acumin-pro', Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url(assets/images/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+main {
+  padding-top: 10rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+a {
+  color: #ff98b6;
+}
+
+img {
+  width: 2.25rem;
+  padding: 0.25rem;
+}
+
+#footer-links {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.social-icon.mastodon img {
+  height: 2.5rem;
+}
+
+.social-icon.mail img {
+  height: 2.5rem;
+}
+
+.paragraph {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #fff;
+  text-align: left;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+  #social-links {
+    display: none;
+  }
+  #footer-links {
+    display: block;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+  #social-links {
+    display: none;
+  }
+  #footer-links {
+    display: block;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  #social-links {
+    display: block;
+  }
+  #footer-links {
+    display: none;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  #social-links {
+    display: block;
+  }
+  #footer-links {
+    display: none;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  #social-links {
+    display: block;
+  }
+  #footer-links {
+    display: none;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 90%;
+  }
+  #social-links {
+    display: block;
+  }
+  #footer-links {
+    display: none;
+  }
+}
