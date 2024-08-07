@@ -1,2 +1,3 @@
 # ianjbattaglia.co
-Repo for ianjbattaglia.co, my personal website.
+
+Repo for [ianjbattaglia.co](https://ianjbattaglia.co), my personal website.
